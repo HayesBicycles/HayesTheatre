@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayes Theatre</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slicknav.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+   $(document).ready(function(){
+           $('#nav ul').slicknav({prependTo:"#mobile_menu"});
+         });
+  </script>
+</head>
+<body>
+  <header>
+    <nav id="nav">
+        <ul>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="movies.htm">Movies</a></li>
+          <li><a href="rewards.htm">Rewards</a></li>
+          <li><a href="theatres.htm">Our Theatres</a></li>
+          <li><a href="contact.htm">Contact</a></li>
+        </ul>
+        <div id="mobile_menu"></div>
+    </nav>
+  </header>
+  <h1 id="page-title">Hayes Theatre</h1>
+  <main>
+    <p>We are thrilled to offer you the best movie-going experience in town. From the latest blockbusters to the greatest classics, we have it all. Our comfortable seats and state-of-the-art sound system will make you feel like you're part of the action on screen.</p>
+    <h2>Tickets</h2>
+    <ul>
+      <div class="ticklist">
+      <li>Early Shows (before 3pm): $7.00</li>
+      <li>Regular Pricing: $10.00</li>
+    </ul>
+  </div>
+    <h2>Rewards</h2>
+    <p>Earn points for every ticket you purchase. Redeem your points for free tickets, popcorn, and more!</p>
+    <a href="rewards.htm" class="cta-btn">Learn more</a>
+   <div class="moviead1">
+      <img src="moviead1.jpg" alt="image" class="img-left">
+        <div class="text-box">
+      <h2>Action Packed</h2>  
+      <p>Experience the ultimate superhero adventure with Antman and the Wasp.</p>
+      <a href="movies.htm" class="cta-btn">Buy Tickets</a> 
+   </div>
+</div> 
+<div class="moviead2">
+  <div class="text-box2">
+    <h2>Blast off</h2>
+    <p> Prepare to be transported into new worlds with Marvels Gaurdians of the Galaxy.</p>
+    <a href="movies.htm" class="cta-btn">Buy Tickets</a>  
+  </div>
+  <img src="moviead2.jpg" alt="image" class="img-right">
+</div>
+  <p>Experience the best movies in town.</p>
+    <a href="movies.htm" class="cta-btn">View Movies</a>
+
+   </main>
+  <footer>
+    <p>&copy; 2023 Hayes Theatre. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayes Theatre</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slicknav.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+   $(document).ready(function(){
+           $('#nav ul').slicknav({prependTo:"#mobile_menu"});
+         });
+  </script>
+</head>
+<body>
+  <header>
+    <nav id="nav">
+        <ul>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="movies.htm">Movies</a></li>
+          <li><a href="rewards.htm">Rewards</a></li>
+          <li><a href="theatres.htm">Our Theatres</a></li>
+          <li><a href="contact.htm">Contact</a></li>
+        </ul>
+        <div id="mobile_menu"></div>
+    </nav>
+  </header>
+  <h1 id="page-title">Hayes Theatre</h1>
+    <div class="container">
+      <div class="row">
+        <div class="movie">
+          <img src="movie1.jpg" alt="Movie 1">
+          <h2>Gaurdians of the Galaxy</h2>
+          <p>Showtimes: 12:00pm, 3:00pm, 6:00pm</p>
+        </div>
+        <div class="movie">
+          <img src="movie2.jpg" alt="Movie 2">
+          <h2>Ant Man And The Wasp</h2>
+          <p>Showtimes: 1:00pm, 4:00pm, 7:00pm</p>
+        </div>
+        <div class="movie">
+          <img src="movie3.jpg" alt="Movie 3">
+          <h2>Captain America: The Winter Soldier</h2>
+          <p>Showtimes: 2:00pm, 5:00pm, 8:00pm</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="movie">
+          <img src="movie4.jpg" alt="Movie 4">
+          <h2>Black Panther</h2>
+          <p>Showtimes: 12:30pm, 3:30pm, 6:30pm</p>
+        </div>
+        <div class="movie">
+          <img src="movie5.jpg" alt="Movie 5">
+          <h2>Iron Man</h2>
+          <p>Showtimes: 1:30pm, 4:30pm, 7:30pm</p>
+        </div>
+        <div class="movie">
+          <img src="movie6.jpg" alt="Movie 6">
+          <h2>Captain Marvel</h2>
+          <p>Showtimes: 2:30pm, 5:30pm, 8:30pm</p>
+        </div>
+  </body>
+</html>

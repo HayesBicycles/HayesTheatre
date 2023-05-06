@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayes Theatre</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slicknav.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+   $(document).ready(function(){
+           $('#nav ul').slicknav({prependTo:"#mobile_menu"});
+         });
+  </script>
+</head>
+<body>
+  <header>
+    <nav id="nav">
+        <ul>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="movies.htm">Movies</a></li>
+          <li><a href="rewards.htm">Rewards</a></li>
+          <li><a href="theatres.htm">Our Theatres</a></li>
+          <li><a href="contact.htm">Contact</a></li>
+        </ul>
+        <div id="mobile_menu"></div>
+    </nav>
+  </header>
+  <h1 id="page-title">Hayes Theatre</h1>
+  <body>
+		  <div class="theatreimages">
+			  <img src="movietheatre1.jpg" alt="Theatre 1">
+			  <img src="movietheatre2.jpg">
+		  </div>
+	</div>
+    <div class="theatretext-container">
+      <p class="theatretext1">Sit back, relax, and enjoy the show. Our stadium-style seating ensures that every seat has a perfect view of the screen</p>
+      <p class="theatretext2">Upgrade your movie snack game with our gourmet popcorn. We offer a variety of flavors, from classic butter to spicy jalapeño!</p>
+   </div>
+   <div class="theatrepromotional"></div>
+   <img src="promotional-photo.jpg" class="bottom-photo">
+  </div> 
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayes Theatre - Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slicknav.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+   $(document).ready(function(){
+           $('#nav ul').slicknav({prependTo:"#mobile_menu"});
+         });
+  </script>
+</head>
+<body>
+  <header>
+    <nav id="nav">
+        <ul>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="movies.htm">Movies</a></li>
+          <li><a href="rewards.htm">Rewards</a></li>
+          <li><a href="theatres.htm">Our Theatres</a></li>
+          <li><a href="contact.htm">Contact</a></li>
+        </ul>
+        <div id="mobile_menu"></div>
+    </nav>
+</head>
+  <main>
+    <h1>Contact Us</h1>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="cta-btn">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023 Hayes Theatre. All rights reserved.</p>
+  </footer>
+</body>
+</html>

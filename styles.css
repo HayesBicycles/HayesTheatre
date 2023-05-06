@@ -1,0 +1,297 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+#mobile_menu {
+  display: none;
+}
+
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+main {
+  text-align: center;
+}
+
+.cta-btn {
+  background-color: #f1c40f;
+  border: none;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+button[type="submit"]:hover {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  
+  
+#nav ul {
+  display: none;
+}
+
+
+  #mobile_menu {
+  display: block;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+
+.movie {
+  text-align: center;
+  margin: 2vw;
+  padding: 2vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30vw;
+  max-width: 261px;
+  min-width: 200px;
+  height: auto;
+}
+
+.container .movie img {
+  margin-bottom: 2vw;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  
+  .movie {
+    width: 45%;
+  }
+}
+
+#page-title {
+  text-align: center;
+}
+
+h2, p {
+  text-align: center;
+}
+
+.ticklist {
+  text-align: center;
+}
+
+.moviead1 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.img-left {
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.text-box {
+  width: 50%;
+  margin-left: auto;
+}
+
+.moviead2 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.img-right {
+  width: 50%;
+  float: right;
+  margin-right: 20px;
+}
+
+.text-box2 {
+  width: 50%;
+  margin-left: auto;
+}
+
+/* Our Theatres */
+
+.theatreimages {
+	float: right;
+	width: 100%;
+  display: block;
+	margin-left: 50px;
+	max-width: 100%;
+}
+
+.theatreimages img {
+	display: block;
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+.theatretext-container {
+  padding: 10px;
+  margin-left: 20px;
+  width: 45%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  height: 695px;
+}
+
+
+.theatretext1 { 
+  margin-top: 200px;
+}
+
+.theatretext2 { 
+  margin-top: 300px;
+}
+
+.bottom-photo {
+  width: 100%;
+  height: auto;
+
+} 
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+  /* Adjust styles for screens wider than 768px */
+  .theatreimages {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .theatreimages {
+    float: none;
+    width: auto;
+  }
+
+  .theatretext-container {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .theatretext1, .theatretext2 {
+    margin-top: 0;
+  }
+}
+
+/*Rewards */
+
+.rewardscontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.rewardsbottom-photo {
+  width: 100%;
+  height: auto;
+
+} 
